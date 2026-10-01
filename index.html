@@ -4,223 +4,208 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KOMBE The Window Cleaners | Professional Cleaning Services</title>
-  <meta name="description"
-    content="KOMBE The Window Cleaners provides professional window, residential, commercial and deep cleaning services.">
+  <title>Kombe Window Cleaners | Professional Cleaning Services</title>
+  <meta name="description" content="Professional cleaning services for homes, offices, and commercial spaces.">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-  <header>
-    <div class="container nav">
-      <a class="brand" href="#home">
-        <img src="logo.jpg" alt="KOMBE logo">
-        <span>KOMBE THE WINDOW CLEANERS</span>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Kombe Window Cleaners home">
+        <span class="brand-mark" aria-hidden="true">
+          <span class="bubble bubble-1"></span>
+          <span class="bubble bubble-2"></span>
+          <span class="drop"></span>
+        </span>
+        <span class="brand-text">
+          <strong>Kombe Window Cleaners</strong>
+          <small>CLEANING SERVICES</small>
+        </span>
       </a>
-      <div class="menu" onclick="toggleMenu()">☰</div>
-      <nav class="navlinks" id="navlinks">
+
+      <nav class="main-nav" aria-label="Main navigation">
         <a href="#home">Home</a>
-        <a href="#about">About</a>
+        <a href="#about">About Us</a>
         <a href="#services">Services</a>
-        <a href="#why">Why Us</a>
+        <a href="#pages">Pages</a>
         <a href="#contact">Contact</a>
-        <a class="navbtn" href="#contact">Get a Quote</a>
       </nav>
+
+      <a class="quote-btn" href="#contact">Get a Free Quote</a>
     </div>
   </header>
 
   <main>
     <section class="hero" id="home">
-      <div class="container hero-content">
-        <div class="eyebrow">Professional • Reliable • Spotless</div>
-        <h1>Clean Windows.<br>Clean Spaces.</h1>
-        <p>Professional window cleaning and property cleaning services for homes, offices, shops and commercial spaces
-          across Kampala and Wakiso.</p>
-        <div class="buttons">
-          <a class="btn primary" href="#contact">Request a Free Quote</a>
-          <a class="btn outline" href="tel:+256700123456">Call +256 743 164 138</a>
-        </div>
-      </div>
-    </section>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>A Cleaner Home<br>For A Better<br>Life Everyday</h1>
+          <p>
+            We provide top-quality cleaning services with attention to detail,
+            reliable staff, and eco-friendly products for a healthier home.
+          </p>
 
-    <section class="about" id="about">
-      <div class="container about-grid">
-        <div class="about-card">
-          <h3>We Make Clean Look Professional.</h3>
-          <p>KOMBE The Window Cleaners delivers dependable cleaning with attention to the details people notice first:
-            clear glass, fresh spaces and a professional finish.</p>
-          <div class="checks">
-            <div>Trained and careful cleaning team</div>
-            <div>Quality products and equipment</div>
-            <div>Residential and commercial service</div>
-            <div>Flexible appointments</div>
+          <div class="hero-actions">
+            <a href="#contact" class="primary-btn">Book Now <span>→</span></a>
+            <a href="#how-it-works" class="secondary-link">
+              <span class="play-button">▶</span>
+              How It Works
+            </a>
           </div>
         </div>
-        <div class="about-copy">
-          <div class="eyebrow">About KOMBE</div>
-          <h2>A cleaner finish for every property.</h2>
-          <div class="goldline" style="margin-left:0"></div>
-          <p>From sparkling windows to deep cleaning, our goal is simple: make your property look fresh, welcoming and
-            well cared for.</p>
-          <p>We work with homeowners, offices, retail shops, apartments and businesses that want reliable cleaning
-            without the hassle.</p>
-          <a class="btn primary" href="#services">Explore Our Services</a>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="bubble bubble-a"></div>
+          <div class="bubble bubble-b"></div>
+          <div class="bubble bubble-c"></div>
+          <div class="bubble bubble-d"></div>
+
+          <div class="bucket-scene">
+            <div class="glove glove-left"></div>
+            <div class="glove glove-right"></div>
+
+            <div class="bucket">
+              <span class="bucket-handle"></span>
+              <span class="spray spray-blue"></span>
+              <span class="spray spray-red"></span>
+              <span class="spray spray-green"></span>
+              <span class="brush brush-white"></span>
+              <span class="brush brush-yellow"></span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="services">
+    <section class="booking" id="services">
       <div class="container">
-        <div class="section-head">
-          <div class="eyebrow">What We Do</div>
-          <h2>Our Cleaning Services</h2>
-          <div class="goldline"></div>
-          <p>Choose a single service or combine several for a complete property clean.</p>
+        <div class="section-heading">
+          <h2>Book Your Cleaning Service Today!</h2>
+          <div class="divider">
+            <span class="sparkle">✦</span>
+          </div>
+          <p>
+            Experience the joy of a spotless home without lifting a finger.
+            We bring cleanliness, comfort, and care to your doorstep.
+          </p>
         </div>
-        <div class="services-grid">
-          <article class="service">
-            <div class="icon">▣</div>
-            <h3>Window Cleaning</h3>
-            <p>Interior and exterior window cleaning for homes, offices, shops and commercial buildings.</p>
+
+        <div class="service-grid">
+          <article class="service-card light">
+            <div class="service-icon house">
+              <span class="roof"></span>
+              <span class="window"></span>
+            </div>
+            <h3>Regular Cleaning</h3>
+            <p>Keep your home fresh and tidy with our regular cleaning services tailored to your schedule.</p>
           </article>
-          <article class="service">
-            <div class="icon">✦</div>
+
+          <article class="service-card soft">
+            <div class="service-icon vacuum">
+              <span class="vacuum-body"></span>
+              <span class="vacuum-tube"></span>
+            </div>
             <h3>Deep Cleaning</h3>
-            <p>Detailed cleaning for kitchens, bathrooms, floors, surfaces and hard-to-reach areas.</p>
+            <p>Thorough cleaning that reaches every corner, removing dirt, dust, and allergens.</p>
           </article>
-          <article class="service">
-            <div class="icon">⌂</div>
-            <h3>Home Cleaning</h3>
-            <p>Regular or one-off cleaning designed around your home's size, schedule and needs.</p>
-          </article>
-          <article class="service">
-            <div class="icon">▤</div>
-            <h3>Office Cleaning</h3>
-            <p>Keep workspaces presentable with scheduled cleaning for offices and professional premises.</p>
-          </article>
-          <article class="service">
-            <div class="icon">◇</div>
-            <h3>Shop & Commercial</h3>
-            <p>Cleaning support for retail spaces, apartments, salons, restaurants and other businesses.</p>
-          </article>
-          <article class="service">
-            <div class="icon">↗</div>
+
+          <article class="service-card light">
+            <div class="service-icon truck">
+              <span class="truck-body"></span>
+              <span class="truck-cabin"></span>
+              <span class="truck-wheel wheel-left"></span>
+              <span class="truck-wheel wheel-right"></span>
+            </div>
             <h3>Move-In / Move-Out</h3>
-            <p>Fresh-start cleaning before moving in or after moving out, helping leave the property ready.</p>
+            <p>Make your move stress-free with our complete cleaning for a smooth transition.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="stats">
-      <div class="container stats-grid">
-        <div class="stat"><strong>500+</strong><span>Cleaning Jobs</span></div>
-        <div class="stat"><strong>98%</strong><span>Repeat Customers</span></div>
-        <div class="stat"><strong>7 Days</strong><span>Flexible Booking</span></div>
-        <div class="stat"><strong>100%</strong><span>Attention to Detail</span></div>
-      </div>
-    </section>
+    <section class="promise" id="about">
+      <div class="container promise-grid">
+        <div class="promise-copy">
+          <h2>Let Us Handle the Mess,<br>You Enjoy What Matters!</h2>
+          <p>
+            Our trusted team is here to give you more free time by keeping your space spotless and comfortable.
+          </p>
 
-    <section id="why">
-      <div class="container">
-        <div class="section-head">
-          <div class="eyebrow">Why Choose Us</div>
-          <h2>Built Around Your Convenience</h2>
-          <div class="goldline"></div>
+          <a href="#contact" class="primary-btn full-width">Schedule Now <span>→</span></a>
         </div>
-        <div class="why-grid">
-          <div class="why">
-            <h3>Professional Finish</h3>
-            <p>We focus on the details that create a visibly cleaner, brighter property.</p>
-          </div>
-          <div class="why">
-            <h3>Easy Booking</h3>
-            <p>Tell us what needs cleaning, choose a suitable time and we handle the rest.</p>
-          </div>
-          <div class="why">
-            <h3>Clear Pricing</h3>
-            <p>We assess the job and provide a straightforward quote before work begins.</p>
-          </div>
-          <div class="why">
-            <h3>Careful Team</h3>
-            <p>Your property and belongings are treated with care throughout the service.</p>
-          </div>
-          <div class="why">
-            <h3>Flexible Services</h3>
-            <p>One-off, weekly, monthly or custom cleaning arrangements are available.</p>
-          </div>
-          <div class="why">
-            <h3>Local Service</h3>
-            <p>Serving customers around Kampala, Wakiso and nearby areas.</p>
+
+        <div class="promise-visual" aria-hidden="true">
+          <div class="room-scene">
+            <div class="sofa"></div>
+            <div class="plant"></div>
+            <div class="cleaner">
+              <div class="head"></div>
+              <div class="body"></div>
+              <div class="arm arm-left"></div>
+              <div class="arm arm-right"></div>
+              <div class="mop"></div>
+              <div class="bucket-mini"></div>
+            </div>
+            <div class="spray-bottle bottle-one"></div>
+            <div class="spray-bottle bottle-two"></div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section class="cta">
-      <div class="container">
-        <h2>Ready for a cleaner view?</h2>
-        <p>Get in touch with KOMBE The Window Cleaners for a free quote.</p>
-        <a class="btn primary" href="#contact">Book a Cleaning</a>
       </div>
     </section>
 
     <section class="contact" id="contact">
-      <div class="container">
-        <div class="section-head">
-          <div class="eyebrow">Get In Touch</div>
-          <h2>Request a Cleaning Quote</h2>
-          <div class="goldline"></div>
-          <p>Send your details and we'll get back to you with a quote and available appointment times.</p>
-        </div>
-        <div class="contact-grid">
-          <div class="contact-info">
-            <h3>KOMBE The Window Cleaners</h3>
-            <div class="contact-item"><small>Phone</small><a href="tel:+256743164138">+256 700 123 456</a></div>
-            <div class="contact-item"><small>WhatsApp</small><a href="https://wa.me/256743164138">Chat on WhatsApp</a>
-            </div>
-            <div class="contact-item"><small>Email</small><a
-                href="mailto:hello@kombecleaners.com">Patrickkombe363@gmail.com</a></div>
-            <div class="contact-item"><small>Service Area</small><span>Kampala • Wakiso • Entebbe</span></div>
-            <div class="contact-item"><small>Opening Hours</small><span>Mon–Sat: 7:00 AM – 7:00 PM</span></div>
-          </div>
-
+      <div class="container contact-wrap">
+        <div class="contact-card">
+          <p class="eyebrow dark">Get In Touch</p>
+          <h3>Request a Free Quote</h3>
           <form onsubmit="sendQuote(event)">
-            <div class="form-row">
-              <div><label for="name">Your Name</label><input id="name" required placeholder="Full name"></div>
-              <div><label for="email">Email Address</label><input id="phone" required placeholder="name@example.com"></div>
+            <div class="two-col">
+              <label>
+                <span>Your Name</span>
+                <input id="name" type="text" placeholder="Full name" required>
+              </label>
+              <label>
+                <span>Phone</span>
+                <input id="phone" type="tel" placeholder="Phone number" required>
+              </label>
             </div>
-            <label for="service">Service Needed</label>
-            <select id="service">
-              <option>Window Cleaning</option>
-              <option>Deep Cleaning</option>
-              <option>Home Cleaning</option>
-              <option>Office Cleaning</option>
-              <option>Shop & Commercial Cleaning</option>
-              <option>Move-In / Move-Out Cleaning</option>
-            </select>
-            <label for="message">Tell us about the job</label>
-            <textarea id="message"
-              placeholder="Property location, number of windows/rooms, preferred date, etc."></textarea>
-            <button class="btn primary" type="submit">Send Quote Request</button>
+
+            <label>
+              <span>Service Needed</span>
+              <select id="service">
+                <option>Regular Cleaning</option>
+                <option>Deep Cleaning</option>
+                <option>Home Cleaning</option>
+                <option>Office Cleaning</option>
+                <option>Move-In / Move-Out</option>
+              </select>
+            </label>
+
+            <label>
+              <span>Message</span>
+              <textarea id="message" rows="4" placeholder="Tell us about your space and preferred date..."></textarea>
+            </label>
+
+            <button type="submit" class="primary-btn">Send Request</button>
           </form>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="container footer-flex">
-      <div>© 2026 <strong>KOMBE The Window Cleaners</strong>. All rights reserved.</div>
-      <div class="social"><a href="#">Facebook</a><a href="#">Instagram</a><a
-          href="https://wa.me/256743164138">WhatsApp</a></div>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Kombe Window Cleaners. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://wa.me/256743164138" target="_blank" rel="noreferrer">WhatsApp</a>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+      </div>
     </div>
   </footer>
 
-  <script src="app.js">
-    
-  </script>
+  <script src="app.js"></script>
 </body>
 
 </html>
