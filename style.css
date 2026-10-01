@@ -296,13 +296,12 @@ textarea {
 .hero-image {
   width: min(100%, 720px);
   height: 540px;
-  background-image: url("assets/Cleaning Png PNG Transparent With Clear Background ID 139372 _ TopPNG.jpeg");
-  background-size: contain;
+  background-image: url("assets/313844667805520380.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center bottom;
-  transform: scale(1.05);
-  mix-blend-mode: multiply;
-  opacity: 0.95;
+  background-position: center;
+  border-radius: 34px;
+  box-shadow: var(--shadow-lg);
 }
 
 .booking {
