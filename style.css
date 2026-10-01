@@ -403,6 +403,37 @@ textarea {
   line-height: 1.7;
 }
 
+.service-meta {
+  margin: 12px 0 10px;
+}
+
+.price-tag {
+  display: inline-block;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: rgba(29, 132, 181, 0.08);
+  color: var(--navy);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.pricing-note {
+  margin-top: 26px;
+  text-align: center;
+}
+
+.pricing-note p {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 12px 18px;
+  border-radius: 999px;
+  background: rgba(20, 58, 80, 0.04);
+  color: var(--muted);
+  font-size: 0.96rem;
+  font-weight: 600;
+}
+
 .promise {
   background: #dbeef6;
   padding: 80px 0 90px;
