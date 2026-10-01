@@ -1,6 +1,7 @@
 function toggleMenu() {
     document.getElementById('navlinks').classList.toggle('show');
 }
+
 function sendQuote(e) {
     e.preventDefault();
     const name = document.getElementById('name').value;
